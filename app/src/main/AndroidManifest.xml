@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chatapp">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_chat_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_chat_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChatApp">
+        <activity
+            android:name=".TripActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AgeCalculatorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ColourActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LotteryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BtoH_Conversion"
+            android:exported="true" />
+        <activity
+            android:name=".UserChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Home"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
